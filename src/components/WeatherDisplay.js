@@ -6,7 +6,7 @@ const {temperature, conditions} = weather;
 
 return(
     <div>
-        <span style={{color:temperature>20?"red" :"blue"}} >Temperature: {temperature}</span>
+        <p>Temperature: <span style={{color:temperature>20?"red" :"blue"}}>{temperature}</span></p>
         <p>Condition: {conditions}</p>
     </div>
 )
